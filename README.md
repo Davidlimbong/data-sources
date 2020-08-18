@@ -2,7 +2,7 @@
 # Data Sourses
 This repository contains a collection of packages, and functions in R that are often used to retrieve data from various sources.
 
-## Stock market 
+## Stock Market 
 
 Stock market data can be obtained with the `tq_get()` function of the `tidyquant` packages. A more detailed explanation regarding functions can be found at [tidyquant documentation](https://www.rdocumentation.org/packages/tidyquant/versions/1.0.1/topics/tq_get).
 
@@ -47,7 +47,7 @@ gapminer <- read_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqT
 head(gapminer)
 ```
 
-## Wikipedia views
+## Wikipedia Views
 
 Using `pageviews` package you can get the number of visitors of articles on Wikipedia.
 
